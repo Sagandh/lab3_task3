@@ -42,6 +42,7 @@ int main (int argc, char const *argv[])
         << "[4]    Взять книгу" << std::endl
         << "[9]    Выйти из программы" << std::endl;
         std::cin >> key;
+        
             switch (key)
             {
                 case 1:
